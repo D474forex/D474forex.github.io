@@ -1,0 +1,194 @@
+body {
+  background-image: radial-gradient(
+    circle,
+    #4c4c4c,
+    #484848,
+    #434343,
+    #3f3f3f,
+    #3b3b3b,
+    #373737,
+    #333333,
+    #2f2f2f,
+    #2b2b2b,
+    #272727,
+    #232323,
+    #1f1f1f
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+  overflow: hidden;
+}
+.plate {
+  position: relative;
+  background: #4b4748;
+  width: 200px;
+  height: 300px;
+  border-radius: 6px;
+  box-shadow: -4px 10px 32px 5px rgba(23, 21, 22, 0.75);
+}
+
+.chopstick-left {
+  position: absolute;
+  left: 90%;
+  top: 7%;
+  border-top-right-radius: 90px;
+  width: 4px;
+  height: 250px;
+  background: #863416;
+}
+
+.chopstick-right {
+  position: absolute;
+  right: 14.5%;
+  top: 7%;
+  border-top-left-radius: 90px;
+  width: 4px;
+  height: 250px;
+  background: #863416;
+}
+.wasabi {
+  width: 50px;
+  height: 50px;
+  top: 76%;
+  position: absolute;
+  left: 7%;
+  z-index: 8;
+}
+
+.shadow1 {
+  width: 55px;
+  height: 55px;
+  top: 76%;
+  position: absolute;
+  left: 5%;
+}
+.shadow2 {
+  position: absolute;
+  left: 89%;
+  top: 7%;
+  border-top-right-radius: 90px;
+  width: 2.5px;
+  height: 250px;
+  background: #353232;
+}
+
+.shadow3 {
+  position: absolute;
+  right: 16.5%;
+  top: 7%;
+  border-top-left-radius: 90px;
+  width: 2px;
+  height: 250px;
+  background: #353232;
+}
+.sushi1 {
+  width: 34px;
+  height: 62px;
+  background: repeating-linear-gradient(
+    -17deg,
+    #f0d77a,
+    #f0d77a 8px,
+    #7c783e 8px,
+    #7c783e 16px
+  );
+  position: absolute;
+  border-radius: 32% 68% 31% 69% / 30% 63% 37% 70%;
+  left: 40%;
+  top: 12%;
+  transform: rotate(-30deg);
+  box-shadow: -4px 10px 32px -4px rgba(23, 21, 22, 0.75);
+}
+.sushi2 {
+  position: absolute;
+  width: 31.5px;
+  height: 62px;
+  left: 40%;
+  top: 35%;
+  border: 2px solid black;
+  transform: rotate(-50deg);
+  background: white;
+  border-radius: 8px;
+  box-shadow: -4px 10px 32px -4px rgba(23, 21, 22, 0.75);
+}
+.fish {
+  position: absolute;
+  width: 25px;
+  height: 50px;
+  transform: rotate(-40deg);
+  left: 43%;
+  top: 38%;
+  background: #ee5f21;
+  border-radius: 18% 82% 0% 100% / 15% 100% 0% 85%;
+}
+.seaweed {
+  position: absolute;
+  width: 35px;
+  height: 10px;
+  transform: rotate(-50deg);
+  left: 41%;
+  top: 45%;
+  background: #000;
+}
+.sushi3 {
+  box-shadow: -4px 10px 32px -4px rgba(23, 21, 22, 0.75);
+  width: 34px;
+  height: 62px;
+  background: repeating-linear-gradient(
+    -17deg,
+    #ee6c62,
+    #ee6c62 8px,
+    #f5a7a1 8px,
+    #be564e 16px
+  );
+  position: absolute;
+  border-radius: 32% 68% 31% 69% / 30% 63% 37% 70%;
+  left: 40%;
+  top: 58%;
+  transform: rotate(-35deg);
+  border: 2px solid white;
+}
+.ele1 {
+  position: absolute;
+  left: 90%;
+  top: 80%;
+  width: 4px;
+  height: 10px;
+  background: #c46d41;
+}
+
+.ele3 {
+  position: absolute;
+  left: 90%;
+  top: 76.5%;
+  width: 4px;
+  height: 5px;
+  background: #c46d41;
+}
+
+.ele2 {
+  position: absolute;
+  right: 14.5%;
+  top: 80%;
+  width: 4px;
+  height: 10px;
+  background: #c46d41;
+}
+.ele4 {
+  position: absolute;
+  right: 14.5%;
+  top: 76.5%;
+  width: 4px;
+  height: 5px;
+  background: #c46d41;
+}
+
+<!-- Copyright (c) 2021 by Jelilicent (https://codepen.io/Jelilicent/pen/zYKXROx)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+--->
