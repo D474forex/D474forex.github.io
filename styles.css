@@ -1,19 +1,9 @@
 body {
-  background-image: radial-gradient(
-    circle,
-    #4c4c4c,
-    #484848,
-    #434343,
-    #3f3f3f,
-    #3b3b3b,
-    #373737,
-    #333333,
-    #2f2f2f,
-    #2b2b2b,
-    #272727,
-    #232323,
-    #1f1f1f
-  );
+  background-image:
+    -webkit-radial-gradient(50% 50%, circle, rgb(0, 0, 0), rgb(0, 20, 0));
+    -moz-radial-gradient(50% 50%, circle, rgb(0, 0, 0), rgb(0, 20, 0));
+    -ms-radial-gradient(50% 50%, circle, rgb(0, 0, 0), rgb(0, 20, 0));
+    -o-radial-gradient(50% 50%, circle, rgb(0, 0, 0), rgb(0, 20, 0));
   display: flex;
   align-items: center;
   justify-content: center;
