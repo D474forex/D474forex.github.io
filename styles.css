@@ -11,6 +11,11 @@ body {
   height: 98vh;
   overflow: hidden;
 }
+
+h1,h2,h3,h4,h5,h6 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 .plate {
   position: relative;
   background: #4b4748;
