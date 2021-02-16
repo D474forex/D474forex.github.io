@@ -1,21 +1,20 @@
 body {
   background: black;
+  /*
   background-image:
     -webkit-radial-gradient(50% 50%, circle, rgb(0, 0, 0), rgb(0, 20, 0));
     -moz-radial-gradient(50% 50%, circle, rgb(0, 0, 0), rgb(0, 20, 0));
     -ms-radial-gradient(50% 50%, circle, rgb(0, 0, 0), rgb(0, 20, 0));
     -o-radial-gradient(50% 50%, circle, rgb(0, 0, 0), rgb(0, 20, 0));
+
+    radial-gradient(circle at 50% 50%, #254a2c, #254a2c 50%, #338743 75%, #338743 75%);
+  */
   display: flex;
   align-items: center;
   justify-content: center;
   height: 98vh;
   overflow: hidden;
 }
-
-h1,h2,h3,h4,h5,h6 {
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-
 .plate {
   position: relative;
   background: #4b4748;
