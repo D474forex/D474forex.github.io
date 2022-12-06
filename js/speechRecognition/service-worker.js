@@ -4,7 +4,7 @@ let filesToCache = [
   '/',
   '../../index.html',
   '/main.js',
-  '../../stylesheets/speechRecognition/style.css',
+  '../../speechRecognition/style.css',
   '../../images/speechRecognition/blek pentha.png',
   '../../audio/speechRecognition/chime.mp3',
   '../../images/speechRecognition/mic-icon.png'
