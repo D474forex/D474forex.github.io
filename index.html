@@ -14,7 +14,11 @@
 
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
 
+  <script src="https://use.fontawesome.com/f061fecdbc.js"></script>
+
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./speechRecognition/style.css">
+
 
   <script data-ad-client="ca-pub-6650685567778827" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -23,6 +27,9 @@
 <!-- <body style="overflow:auto;"> --->
 <body>
   <center>
+    <table>
+      <tr>
+        <td>
     <h1 style="color:white;width:60%;">D474forex</h1>
     <p style="color:white;width:60%;">
       Offering returns within 12 months. <br />
@@ -33,7 +40,8 @@
     <button style="border:line;color:white;background-color:black;" type="button" name="button" onclick="location.href='./secondary/secondary.html'">Investors Area</button>
     <button style="border:line;color:white;background-color:black;" type="button" name="button" onclick="window.open('https://txti.es/47corporation')">About Us</button>
     <br></br>
-
+  </td>
+<td>
 <div class="plate">
   <div class="sushi1"></div>
   <div class="sushi2"></div>
@@ -56,10 +64,36 @@
   <div class="ele3"></div>
   <div class="ele4"></div>
 </div>
+</td>
+</tr>
+</table>
 
 <br /><p style="color:white;width:60%;font-size:11px;">
   Copyright 2021 All Rights Reserved
 </p><br />
+
+<!-- Speech Recognition Component -->
+<div class="ui container">
+    <center>
+        <div class="text-box" contenteditable="false"></div>
+        <i class="fa fa-microphone"></i>
+        <div>
+            <label for="rate">Rate</label><input type="range" min="0.5" max="2" value="1" step="0.1" id="rate">
+            <div style="display: none" class="rate-value">1</div>
+            <div class="clearfix"></div>
+        </div>
+        <div>
+            <label for="pitch">Pitch</label><input type="range" min="0" max="2" value="1" step="0.1" id="pitch">
+            <div style="display: none" class="pitch-value">1</div>
+            <div class="clearfix"></div>
+        </div>
+        <select id="voiceSelect"></select>
+        <div class="d474designs"><a href="https://d474designs.github.io" target="_blank">D474designs™</a></div>
+    </center>
+</div>
+<audio class="sound" src="./audio/speechRecognition/chime.mp3"></audio>
+<script src="./js/speechRecognition/main.js" async></script>
+<!-- Speech Recognition Component -->
 
 </center>
 </body>
