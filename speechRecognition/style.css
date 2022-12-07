@@ -41,7 +41,7 @@ a {
   color: white;
   overflow: hidden;
   /* margin-top: 10vh; */
-  bottom: 15%;
+  bottom: 0px;
 }
 
 .text-box {
