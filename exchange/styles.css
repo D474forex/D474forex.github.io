@@ -1,0 +1,26 @@
+html {
+  width: 100%;
+  height: 100%;
+/*
+  overflow: hidden;
+*/
+}
+body {
+  background: black;
+  /*
+  background-image:
+    -webkit-radial-gradient(50% 50%, circle, rgb(0, 0, 0), rgb(0, 20, 0));
+    -moz-radial-gradient(50% 50%, circle, rgb(0, 0, 0), rgb(0, 20, 0));
+    -ms-radial-gradient(50% 50%, circle, rgb(0, 0, 0), rgb(0, 20, 0));
+    -o-radial-gradient(50% 50%, circle, rgb(0, 0, 0), rgb(0, 20, 0));
+
+    radial-gradient(circle at 50% 50%, #254a2c, #254a2c 50%, #338743 75%, #338743 75%);
+  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+  /*
+  overflow: hidden;
+  */
+}
