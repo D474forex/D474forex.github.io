@@ -48,6 +48,7 @@ body {
   height: 300px;
   border-radius: 6px;
   box-shadow: -4px 10px 32px 5px rgba(23, 21, 22, 0.75);
+padding-top: 15%;
 }
 
 .chopstick-left {
