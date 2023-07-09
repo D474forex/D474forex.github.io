@@ -1,0 +1,164 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+/*
+body {
+  background: #1e2440;
+  color: #f2efe2;
+  font-size: 16px;
+ font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+}
+*/
+
+.d474designs {
+  position: absolute;
+  display: none;
+  margin-bottom: 3px;
+}
+
+.button {
+  background-color: limeGreen;
+  border: orange;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  /* padding: 0.2rem 1rem; */
+  color: white;
+  overflow: hidden;
+  /* margin-top: 10vh; */
+  bottom: 0px;
+}
+
+.text-box {
+  max-height: 3px;
+  overflow-y: scroll;
+}
+
+.text-box:focus {
+  outline: none;
+}
+
+.text-box p {
+  margin: 0px !important;
+}
+
+.fa {
+  color: white;
+  background: linear-gradient(    60deg,    #68a54b 0%,    #92ab87 100%  );
+  border-radius: 50%;
+  cursor: pointer;
+  /* float: right; */
+  width: 2rem;
+  height: 2rem;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .text-box {
+    max-height: 5vh;
+  }
+
+  select {
+    width: 70vw !important;
+    padding: 3px 35px 5px 5px;
+    background: url("../img/speechRecognition/blek pentha.png") 96% / 9%
+      no-repeat #eee !important;
+  }
+}
+
+@media (min-width: 768px) {
+  select {
+    background: url("../img/speechRecognition/blek pentha.png") 96% / 7%
+      no-repeat #eee !important;
+  }
+
+  .fa {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  label {
+    padding-top: 5px;
+    font-size: 1vw;
+    vertical-align: bottom;
+  }
+
+  input#rate {
+    max-height: 5px;
+    accent-color: #68a54b;
+  }
+
+  input#pitch {
+    max-height: 5px;
+    accent-color: #68a54b;
+  }
+
+  select#voiceSelect {
+    padding-top: 3px;
+  }
+}
+
+select {
+  width: 22vw;
+  padding: 5px 35px 5px 5px;
+  font-size: 0.5rem;
+  border: 1px solid #ccc;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("../img/speechRecognition/blek pentha.png") 96% / 11%
+    no-repeat #eee;
+  font-family: "Lato", sans-serif;
+  outline: none;
+  cursor: pointer;
+  /* position: absolute; */
+  border-radius: 1rem;
+  margin-bottom: 3px;
+}
+
+select:focus,
+select:active {
+  outline: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+label {
+  float: left;
+  width: 9%;
+}
+
+.rate-value,
+.pitch-value {
+  float: none;
+  width: 5%;
+  line-height: 1.5;
+}
+
+#rate,
+#pitch {
+  float: none;
+  width: 89%;
+}
