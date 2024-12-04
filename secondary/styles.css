@@ -17,6 +17,16 @@ h1,h2,h3,h4,h5,h6 {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.thathilllogodiv {
+  margin: 3px;
+  margin-bottom: 45px;
+}
+@media only screen and (max-width: 728px) {
+  .thathilllogodiv {
+    width: 100%;
+  }
+}
+
 * {
   z-index: 1;
 }
@@ -248,8 +258,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .egg{
    position: absolute;
-  top: 48%;
-  left: 55%;
+  top: 35%;
+  left: 52%;
   transform: rotate(30deg);
   width: 80px;
   height: 100px;
@@ -291,7 +301,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .chives{
   position: absolute;
-  top: 61%;
+  top: 45%;
   left: 50%;
    transform: rotate(35deg);
   width: 10px;
@@ -311,8 +321,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 .pork{
   position: absolute;
-  top: 43%;
-  left: 41%;
+  top: 35%;
+  left: 45%;
   width: 120px;
   height: 70px;
   z-index: 1;
@@ -350,7 +360,7 @@ h1,h2,h3,h4,h5,h6 {
   position: absolute;
   top: 70%;
   /* bottom: 25%; */
-  left: 20%;
+  right: 20%;
   /* right: 30%; */
   margin: auto;
   width: 350px;
@@ -363,7 +373,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .chopsticks:before {
   top: 20px;
-  left: 0;
+  right: 0;
   width: 350px;
   height: 10px;
   background: #A74;
