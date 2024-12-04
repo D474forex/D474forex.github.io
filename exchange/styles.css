@@ -26,5 +26,21 @@ body {
 }
 
 .thathilllogodiv {
-  padding: 3px;
+  padding: 0px;
+  width: 25%;
+}
+@media only screen and (max-width: 728px) {
+  .thathilllogodiv {
+    width: 100%;
+    padding-bottom: 0px;
+  }
+}.thathilllogodiv {
+  padding: 0px;
+  width: 25%;
+}
+@media only screen and (max-width: 728px) {
+  .thathilllogodiv {
+    width: 100%;
+    padding-bottom: 0px;
+  }
 }
