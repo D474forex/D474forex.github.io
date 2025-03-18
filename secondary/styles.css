@@ -13,8 +13,17 @@ body {
   background: #6e7955;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .thathilllogodiv {
@@ -30,31 +39,32 @@ h1,h2,h3,h4,h5,h6 {
 * {
   z-index: 1;
 }
-*:before, *:after {
+*:before,
+*:after {
   position: absolute;
   content: "";
 }
 
-.textarea{
+.textarea {
   position: relative;
   overflow: auto;
   z-index: 999;
   font-size: 0px;
 }
-.textarea2{
+.textarea2 {
   position: relative;
   overflow: auto;
   z-index: 999;
   font-size: 0px;
   bottom: 15%;
 }
-.text{
+.text {
   position: relative;
   overflow: auto;
   z-index: 999;
 }
 
-.bowl{
+.bowl {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,9 +73,14 @@ h1,h2,h3,h4,h5,h6 {
   height: 300px;
   border-radius: 100%;
   background: #a86f4c;
-  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2), inset 0 3px 10px 3px rgba(0, 0, 0, 0.7), 0 0 2px 2px rgba(0, 0, 0, 0.15), 0 0 0 10px #c9171e, 0 18px 15px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    inset 0 0 2px rgba(0, 0, 0, 0.2),
+    inset 0 3px 10px 3px rgba(0, 0, 0, 0.7),
+    0 0 2px 2px rgba(0, 0, 0, 0.15),
+    0 0 0 10px #c9171e,
+    0 18px 15px rgba(0, 0, 0, 0.4);
 }
-.bowl:before{
+.bowl:before {
   top: 32%;
   left: 45%;
   width: 0;
@@ -75,7 +90,7 @@ h1,h2,h3,h4,h5,h6 {
   border-radius: 100%;
   z-index: 2;
 }
-.bowl:after{
+.bowl:after {
   top: 50%;
   left: 50%;
   width: 0px;
@@ -85,13 +100,13 @@ h1,h2,h3,h4,h5,h6 {
   z-index: 2;
 }
 
-.noodlerange{
-   position: relative;
+.noodlerange {
+  position: relative;
   top: 0;
   width: 290px;
   height: 290px;
   border-radius: 100%;
-   overflow: hidden;
+  overflow: hidden;
 }
 
 .noodles {
@@ -255,17 +270,18 @@ h1,h2,h3,h4,h5,h6 {
   left: 30px;
 }
 
-
-.egg{
-   position: absolute;
+.egg {
+  position: absolute;
   top: 35%;
   left: 52%;
   transform: rotate(30deg);
   width: 80px;
   height: 100px;
-  background: #EEE;
+  background: #eee;
   border-radius: 50%/60% 60% 40% 40%;
-  box-shadow: inset 0 -4px 2px 0 rgba(0, 0, 0, 0.1), 1px 5px 5px 0 rgba(0, 0, 0, 0.3);
+  box-shadow:
+    inset 0 -4px 2px 0 rgba(0, 0, 0, 0.1),
+    1px 5px 5px 0 rgba(0, 0, 0, 0.3);
 }
 .egg:before {
   top: 35%;
@@ -274,11 +290,13 @@ h1,h2,h3,h4,h5,h6 {
   height: 50%;
   background: #f39800;
   border-radius: 50%;
-  box-shadow: 0 0 1px 1px #F90, inset 0 0 4px 2px rgba(248, 181, 0, 0.9);
+  box-shadow:
+    0 0 1px 1px #f90,
+    inset 0 0 4px 2px rgba(248, 181, 0, 0.9);
 }
 
-.seaweeds{
-   position: absolute;
+.seaweeds {
+  position: absolute;
   top: 29%;
   left: 60%;
   transform: rotate(30deg);
@@ -288,7 +306,7 @@ h1,h2,h3,h4,h5,h6 {
   box-shadow: 1px 5px 5px 0 rgba(0, 0, 0, 0.3);
   z-index: -3;
 }
-.seaweeds:before{
+.seaweeds:before {
   top: -5%;
   left: 61%;
   transform: rotate(-15deg);
@@ -299,27 +317,65 @@ h1,h2,h3,h4,h5,h6 {
   z-index: -3;
 }
 
-.chives{
+.chives {
   position: absolute;
   top: 45%;
   left: 50%;
-   transform: rotate(35deg);
+  transform: rotate(35deg);
   width: 10px;
   height: 8px;
   background: #028760;
-  box-shadow: -6px -7px 0 0 #93b69c, 15px 8px 0 0 #028760, -25px -11px 0 -1px #93b69c, -12px 7px 0 0 #028760, -6px 15px 0 -1px #93b69c, -15px -7px 0 0 #028760, -19px 22px 0 -1px #93b69c, -3px -15px 0 -1px #028760, -28px -9px 0 -1px #696, -3px 28px 0 -1px #028760, -16px 2px 0 0 #696, -28px 0 0 -1px #028760, 25px 5px 0 -1px #696, 15px 17px 0 -1px #93b69c, 22px 22px 0 -1px #696, 8px 25px 0 -1px #028760, 5px 12px 0 -1px #696, 14px -4px 0 -1px #028760, -20px 15px 0 0 #696
+  box-shadow:
+    -6px -7px 0 0 #93b69c,
+    15px 8px 0 0 #028760,
+    -25px -11px 0 -1px #93b69c,
+    -12px 7px 0 0 #028760,
+    -6px 15px 0 -1px #93b69c,
+    -15px -7px 0 0 #028760,
+    -19px 22px 0 -1px #93b69c,
+    -3px -15px 0 -1px #028760,
+    -28px -9px 0 -1px #696,
+    -3px 28px 0 -1px #028760,
+    -16px 2px 0 0 #696,
+    -28px 0 0 -1px #028760,
+    25px 5px 0 -1px #696,
+    15px 17px 0 -1px #93b69c,
+    22px 22px 0 -1px #696,
+    8px 25px 0 -1px #028760,
+    5px 12px 0 -1px #696,
+    14px -4px 0 -1px #028760,
+    -20px 15px 0 0 #696;
 }
 .chives:before {
   position: absolute;
   top: 61%;
   left: 50%;
-   transform: rotate(-135deg);
+  transform: rotate(-135deg);
   width: 10px;
   height: 8px;
   background: #028760;
-  box-shadow: -6px -7px 0 0 #93b69c, 15px 8px 0 0 #028760, -25px -11px 0 -1px #93b69c, -12px 7px 0 0 #028760, -6px 15px 0 -1px #93b69c, -15px -7px 0 0 #028760, -19px 22px 0 -1px #93b69c, -3px -15px 0 -1px #028760, -28px -9px 0 -1px #696, -3px 28px 0 -1px #028760, -16px 2px 0 0 #696, -28px 0 0 -1px #028760, 25px 5px 0 -1px #696, 15px 17px 0 -1px #93b69c, 22px 22px 0 -1px #696, 8px 25px 0 -1px #028760, 5px 12px 0 -1px #696, 14px -4px 0 -1px #028760, -20px 15px 0 0 #696
+  box-shadow:
+    -6px -7px 0 0 #93b69c,
+    15px 8px 0 0 #028760,
+    -25px -11px 0 -1px #93b69c,
+    -12px 7px 0 0 #028760,
+    -6px 15px 0 -1px #93b69c,
+    -15px -7px 0 0 #028760,
+    -19px 22px 0 -1px #93b69c,
+    -3px -15px 0 -1px #028760,
+    -28px -9px 0 -1px #696,
+    -3px 28px 0 -1px #028760,
+    -16px 2px 0 0 #696,
+    -28px 0 0 -1px #028760,
+    25px 5px 0 -1px #696,
+    15px 17px 0 -1px #93b69c,
+    22px 22px 0 -1px #696,
+    8px 25px 0 -1px #028760,
+    5px 12px 0 -1px #696,
+    14px -4px 0 -1px #028760,
+    -20px 15px 0 0 #696;
 }
-.pork{
+.pork {
   position: absolute;
   top: 35%;
   left: 45%;
@@ -328,10 +384,13 @@ h1,h2,h3,h4,h5,h6 {
   z-index: 1;
   border-radius: 50% 40%/40% 60% 30% 25%;
   transform: rotate(-10deg);
-  box-shadow: inset 0 -2px 0 2px rgba(0, 0, 0, 0.1), inset 0 -2px 0 5px rgba(255, 255, 255, 0.1), 0 1px 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow:
+    inset 0 -2px 0 2px rgba(0, 0, 0, 0.1),
+    inset 0 -2px 0 5px rgba(255, 255, 255, 0.1),
+    0 1px 1px 1px rgba(0, 0, 0, 0.3);
   background-image: linear-gradient(0deg, #f0cfa0 20%, #8a3b00 95%);
 }
-.pork:before{
+.pork:before {
   position: absolute;
   top: 22%;
   right: 30%;
@@ -340,10 +399,13 @@ h1,h2,h3,h4,h5,h6 {
   z-index: 1;
   border-radius: 50% 40%/40% 60% 30% 25%;
   transform: rotate(-10deg);
-  box-shadow: inset 0 -2px 0 2px rgba(0, 0, 0, 0.1), inset 0 -2px 0 5px rgba(255, 255, 255, 0.1), 0 1px 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow:
+    inset 0 -2px 0 2px rgba(0, 0, 0, 0.1),
+    inset 0 -2px 0 5px rgba(255, 255, 255, 0.1),
+    0 1px 1px 1px rgba(0, 0, 0, 0.3);
   background-image: linear-gradient(0deg, #f0cfa0 20%, #8a3b00 95%);
 }
-.pork:after{
+.pork:after {
   position: absolute;
   top: 57%;
   right: 45%;
@@ -352,7 +414,10 @@ h1,h2,h3,h4,h5,h6 {
   z-index: 1;
   border-radius: 50% 40%/40% 60% 30% 25%;
   transform: rotate(-15deg);
-  box-shadow: inset 0 -2px 0 2px rgba(0, 0, 0, 0.1), inset 0 -2px 0 5px rgba(255, 255, 255, 0.1), 0 1px 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow:
+    inset 0 -2px 0 2px rgba(0, 0, 0, 0.1),
+    inset 0 -2px 0 5px rgba(255, 255, 255, 0.1),
+    0 1px 1px 1px rgba(0, 0, 0, 0.3);
   background-image: linear-gradient(0deg, #f0cfa0 20%, #8a3b00 95%);
 }
 
@@ -365,10 +430,12 @@ h1,h2,h3,h4,h5,h6 {
   margin: auto;
   width: 350px;
   height: 10px;
-  background: #A74;
+  background: #a74;
   z-index: -4;
   border-radius: 3px;
-  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2), inset 0 -5px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow:
+    0 1px 2px 1px rgba(0, 0, 0, 0.2),
+    inset 0 -5px 2px 0 rgba(0, 0, 0, 0.2);
   transform: rotate(-90deg);
 }
 .chopsticks:before {
@@ -376,10 +443,12 @@ h1,h2,h3,h4,h5,h6 {
   right: 0;
   width: 350px;
   height: 10px;
-  background: #A74;
+  background: #a74;
   z-index: -4;
   border-radius: 3px;
-  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2), inset 0 -5px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow:
+    0 1px 2px 1px rgba(0, 0, 0, 0.2),
+    inset 0 -5px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 /*
